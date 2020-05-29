@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <section class="top-banner">
+        <div class="container">
+          <h1 class="heading">Simple Weather App</h1>
+          <form>
+            <input type="text" placeholder="Search..." id="zip" autofocus />
+
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+          <div>
+            <small
+              >You can search with the following parameters
+              <ul>
+                <li>Location Name <em>e.g Lagos</em></li>
+                <li>UK/Canada/US ZIP Code <em>e.g 10005</em></li>
+                <li>Coordinates (Lat/Lon) <em>e.g 40.7831,-73.9712</em></li>
+                <li>IP Address <em>153.65.8.20</em></li>
+                <li>
+                  IP Address (Auto-Fetch)
+                  <em>Use this: </em><strong>fetch:ip</strong>
+                </li>
+              </ul>
+            </small>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
