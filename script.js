@@ -34,7 +34,7 @@ async function getWeather() {
 
     //receive data from API
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
 
     //Destructure/Extract information from data returned
     const { current, location, request } = data;
