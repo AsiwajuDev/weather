@@ -25,8 +25,7 @@ async function getWeather() {
     //API key generated from WeatherStack
     const apiKey = "0cae5c7e3884db1c24b05dfb38eaff6e";
 
-    //OpenWeather API
-    // const url = `https://api.openweathermap.org/data/2.5/weather?zip=${inputZipVal}&appid=${apiKey}`;
+    //WeatherStack API
     const url = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${inputZipVal}`;
 
     //make API call
